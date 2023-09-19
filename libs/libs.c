@@ -4,6 +4,7 @@ nix*: dlopen, dlsym, dlclose
 win: LoadLibrary(EX), GetProcAddress, FreeLibrary
 ========================================*/
 #include <stdio.h>
+#include <dlfcn.h>
 
 int main(void) {
 
