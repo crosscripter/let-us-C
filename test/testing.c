@@ -26,6 +26,9 @@ void test_string(void) {
 
 int main(void) {  
 
+  const char *hello = "Hello";
+  test(strlen(hello) == strlen("Hello!"), "String should be length of 5");
+
   const int a = 1;
   const int b = 2;
   const int c = add(a, b);
