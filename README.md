@@ -69,7 +69,7 @@ $ sh
 
 "I don't mean to `bash` you, but now I can **C** that things are `terminal`. `now()` you will **C** what a `real` language can `do`. `while` you still have the `time`..." 
 
-I take you by the hand and we unconditionally `jmp` into an old, worn down `cpy` of **K&R** together, you _shudder_ as we dive deep into _manual memory management_ and _pointers_ and wait what do you meeeeean therrrrre `char arr[] = {'n','o',' ','s','t','r','i','n','g','s','?','\0'};` 
+I take you by the hand and we unconditionally `jmp` into an old, worn down `cp` of **K&R** together, you _shudder_ as we dive deep into _manual memory management_ and _pointers_ and wait what do you meeeeean therrrrre `char arr[] = {'n','o',' ','s','t','r','i','n','g','s','?','\0'};` 
 
 
 ## Chapter 0x2
