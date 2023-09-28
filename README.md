@@ -105,7 +105,7 @@ int main()
     
 Notice how on this line:
 ```C
-    puts("You C...it's easy!"); // <-- SEMI! 🚛
+ puts("You C...it's easy!"); // <-- SEMI! 🚛
  ```
 we ended the line with a semi? No not the big truck with lotsa wheels silly.. that's a *semi* we are talking about the colons of the semi...wait? wat? 
 
@@ -132,11 +132,11 @@ Ok, so what's with the `#include`?? you say...well that's the **C preprocessor**
 is compiled and runs.  It's actually really cool.
 
 The preprocessor contains certain commands, not the least of which is `#include`.  This "includes" (see?) an entire file right where you put the include preprocessor command.  The file `stdio.h` is what we like to call a **header file** in **C**, it basically defines publically usable members of a module (more on that much later...) but essentially you can think of it copying and pasting "stdio.h" right into our file.
-Wait, that's cool and all buuuut why do we need it again? Wow you're catching on!  Yeah so we need it because we used the amazing little function called `puts` it stands for "**p**ut **s**tring" and it simply takes some text and prints it out to our console window!  BUT you say, we didn't define `puts` anywhere?? Riiiight, because it's defined in "stdio.h" 😁 and _that's_ why we `#include`d it!
+Wait, that's cool and all buuuut why do we need it again? Wow you're catching on!  Yeah so we need it because we used the amazing little function called `puts` it stands for "**put s**tring" and it simply takes some text and prints it out to our console window!  BUT you say, we didn't define `puts` anywhere?? Riiiight, because it's defined in "stdio.h" 😁 and _that's_ why we `#include`d it!
 
 #### Friends Don't Let Friends Interpret
 "Sweet -- how do I run this thing again?"
-Yeah so in **C** you can't just _run_ your code (c'mon now we ain't not 'terpreted language! 🧙‍♂️) we look to the almighty **compiler**.  Oh yeah, wait -- what's a compiler?? Glad you asked.  A compiler is a program that _compiles_ our code. There. Satisfied?  Nah, didn't think so.  Okay let's carry on!
+Yeah so in **C** you can't just _run_ your code (c'mon now we ain't no 'terpreted language! 🐍) we look to the almighty **compiler**.  Oh yeah, wait -- what's a compiler?? Glad you asked.  A compiler is a program that _compiles_ our code. There. Satisfied?  Nah, didn't think so.  Okay let's carry on!
 
 Yeah so don't go getting into flame wars about `gcc` vs `clang` ok?? (and yea none defendeth `MSVC` henceforth)
 My recommendation, find a compiler buddy and stick to it for life! `gcc` is my solemate FWIW.  That's what I'll be a using for this here tutorial. 🧙‍♂️
